@@ -5,8 +5,8 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get('/') # decorator
-def index():
+@app.get('/') # pathOperationDecorator.operation(path/route)
+def index(): # path operation function
     return {'data': {'name':'Shreya'}}
 
 @app.get('/about')
