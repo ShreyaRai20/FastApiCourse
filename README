@@ -17,3 +17,7 @@ pip freeze > requirements.txt
 uvicorn main:app --reload
 
 uvicorn filename:instance --reload
+
+for main inside the blog folder- 
+
+uvicorn blog.main:app --reload
